@@ -14,12 +14,15 @@ body {
   width: 100%;
   height: 100%;
   background-color: #dadada;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 #left {
   height: 100%;
   width: 100%;
-  background-color: lightskyblue;
+  background-color: rgba(250, 194, 135, 0.659);
+  clip-path: polygon(60% 0%, 60% 0%, 40% 100%);
 }
 
 #right {
