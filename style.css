@@ -14,19 +14,24 @@ body {
   width: 100%;
   height: 100%;
   background-color: #dadada;
-  display: flex;
-  flex-wrap: nowrap;
 }
 
 #left {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(250, 194, 135, 0.659);
-  clip-path: polygon(60% 0%, 60% 0%, 40% 100%);
+  background-color: rgba(95, 119, 236, 0.549);
+  clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100%);
 }
 
 #right {
+  position: absolute;
+  top: 0;
+  right: 0;
   height: 100%;
   width: 100%;
-  background-color: pink;
+  background-color: rgba(231, 70, 97, 0.69);
+  clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
 }
