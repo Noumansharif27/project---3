@@ -15,3 +15,15 @@ body {
   height: 100%;
   background-color: #dadada;
 }
+
+#left {
+  height: 100%;
+  width: 100%;
+  background-color: lightskyblue;
+}
+
+#right {
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+}
